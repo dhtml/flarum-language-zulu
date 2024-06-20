@@ -1,0 +1,41 @@
+{
+    "name": "dhtml/flarum-language-zulu",
+    "description": "Flarum Zulu Extension",
+    "keywords": [
+        "flarum"
+    ],
+    "type": "flarum-extension",
+    "license": "GPL-1.0-or-later",
+    "authors": [
+        {
+            "name": "Anthony Ogundipe",
+            "email": "ditony@gmail.com",
+            "role": "Developer"
+        }
+  ],
+  "require": {
+    "flarum/core": "^1.8"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "extra": {
+    "flarum-extension": {
+      "title": "Zulu",
+      "category": "language",
+      "info": {
+        "website": "https://github.com/dhtml",
+        "support": "https://africoders.com"
+      },
+      "icon": {
+        "image": "icon.svg",
+        "backgroundColor": "#ffffff",
+        "backgroundSize": "cover",
+        "backgroundPosition": "center"
+      }
+    },
+    "flarum-locale": {
+      "code": "zu",
+      "title": "Zulu"
+    }
+  }
+}
